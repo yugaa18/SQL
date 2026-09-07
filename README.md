@@ -6,8 +6,11 @@ This project analyzes a relational dataset for an online bookstore using Postgre
 🎯 Project Objective
 Design a normalized relational schema for Books, Customers, and Orders.
 Import and validate transactional data.
+
 Answer business questions using SQL: revenue, top sellers, customer behavior, and stock levels.
+
 🛠️ Tech Stack
+
 Database: PostgreSQL
 Techniques used: Multi-table JOINs (INNER, LEFT), GROUP BY, HAVING, aggregate functions (SUM, AVG, COUNT), WHERE filtering, ORDER BY / LIMIT, DISTINCT, COALESCE
 🗂️ Schema
@@ -89,7 +92,7 @@ What is the remaining stock for each book after fulfilling all orders?
 Run the queries above against the dataset and fill in the actual results here — for example:
 
 --Highest-spending customer: [run query #18]
-![image alt](https://github.com/yugaa18/SQL/blob/048b3bb38576cfd8a43426ef3f6180f8a8154a2b/SQL-QUERY%20(SCREENSHOT1).png)
+![image alt](https://github.com/yugaa18/SQL/blob/ca6155a05c156046151f43455e1ef1117bbed521/SQL-QUERY(SCREENSHOT1).png)
 
 --List customers who have placed at least 2 orders: [run query #14]
 ![image alt](https://github.com/yugaa18/SQL/blob/6133e26491e3cbd2d369e69fc9e3129cb1d8a66e/SQL-QUERY(SCREENSHOT2).png)
