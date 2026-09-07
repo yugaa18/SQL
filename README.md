@@ -90,12 +90,13 @@ Run the queries above against the dataset and fill in the actual results here �
 
 --Highest-spending customer: [run query #18]
 ![image alt](https://github.com/yugaa18/SQL/blob/048b3bb38576cfd8a43426ef3f6180f8a8154a2b/SQL-QUERY%20(SCREENSHOT1).png)
-Most frequently ordered book: [run query #15]
 
 --List customers who have placed at least 2 orders: [run query #14]
-![image alt]()
+![image alt](https://github.com/yugaa18/SQL/blob/6133e26491e3cbd2d369e69fc9e3129cb1d8a66e/SQL-QUERY(SCREENSHOT2).png)
 
---List the cities where customers who spent over $30 are located:
+--List the cities where customers who spent over $30 are located: [run query #17]
+![image alt]
+
 
 👨‍💻 Author
 
