@@ -88,12 +88,14 @@ What is the remaining stock for each book after fulfilling all orders?
 💡 Key Findings
 Run the queries above against the dataset and fill in the actual results here — for example:
 
-Top-selling genre by units: [run query #12, add result]
-Highest-spending customer: [run query #18,]
+--Highest-spending customer: [run query #18]
 ![image alt](https://github.com/yugaa18/SQL/blob/048b3bb38576cfd8a43426ef3f6180f8a8154a2b/SQL-QUERY%20(SCREENSHOT1).png)
-Most frequently ordered book: [run query #15, add result]
-Total revenue generated: [run query #11, add result]
-Books with critically low remaining stock: [run query #20, add result]
+Most frequently ordered book: [run query #15]
+
+--List customers who have placed at least 2 orders: [run query #14]
+![image alt]()
+
+--List the cities where customers who spent over $30 are located:
 
 👨‍💻 Author
 
