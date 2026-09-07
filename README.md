@@ -94,10 +94,10 @@ Run the queries above against the dataset and fill in the actual results here â€
 --Highest-spending customer: [run query #18]
 ![image alt](https://github.com/yugaa18/SQL/blob/ca6155a05c156046151f43455e1ef1117bbed521/SQL-QUERY(SCREENSHOT1).png)
 
---List customers who have placed at least 2 orders: [run query #14]
+--List the cities where customers who spent over $30 are located: [run query #17]
 ![image alt](https://github.com/yugaa18/SQL/blob/553917843cbf38d447c00c41c96148896269e342/SQL-QUERY(SCREENSHOT2).png)
 
---List the cities where customers who spent over $30 are located: [run query #17]
+--List customers who have placed at least 2 orders: [run query #14]
 ![image alt]
 
 
