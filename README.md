@@ -42,29 +42,50 @@ Book_ID	FK → Books
 Order_Date	DATE
 Quantity	INT
 Total_Amount	NUMERIC(10,2)
-📊 Key Business Questions Answered
-Which books belong to the "Fiction" genre?
-Which books were published after 1950?
-Which customers are located in Canada?
-Which orders were placed in November 2023?
-What is the total stock of books available?
-What is the most expensive book in the catalog?
-Which orders had a quantity greater than 1?
-Which orders exceeded $20 in total amount?
-What genres exist in the catalog?
-Which book has the lowest stock?
-What is the total revenue generated from all orders?
-What is the total number of books sold per genre?
-What is the average price of books in the "Fantasy" genre?
-Which customers placed 2 or more orders?
-Which book has been ordered the most times?
-What are the top 3 most expensive Fantasy books?
-What is the total quantity sold by each author?
-Which cities have customers who spent over $30?
-Which customer spent the most overall?
-What is the remaining stock for each book after fulfilling all orders?
-💡 Key Findings
 
+📊 Key Business Questions Answered
+
+Which books belong to the "Fiction" genre?
+
+Which books were published after 1950?
+
+Which customers are located in Canada?
+
+Which orders were placed in November 2023?
+
+What is the total stock of books available?
+
+What is the most expensive book in the catalog?
+
+Which orders had a quantity greater than 1?
+
+Which orders exceeded $20 in total amount?
+
+What genres exist in the catalog?
+
+Which book has the lowest stock?
+
+What is the total revenue generated from all orders?
+
+What is the total number of books sold per genre?
+
+What is the average price of books in the "Fantasy" genre?
+
+Which customers placed 2 or more orders?
+
+Which book has been ordered the most times?
+
+What are the top 3 most expensive Fantasy books?
+
+What is the total quantity sold by each author?
+
+Which cities have customers who spent over $30?
+
+Which customer spent the most overall?
+
+What is the remaining stock for each book after fulfilling all orders?
+
+💡 Key Findings
 Run the queries above against the dataset and fill in the actual results here — for example:
 
 Top-selling genre by units: [run query #12, add result]
