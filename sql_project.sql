@@ -150,9 +150,6 @@ JOIN books b ON o.book_id=b.book_id
 GROUP BY b.Author;
 
 
-
-
-
 -- 7) List the cities where customers who spent over $30 are located:
 
 SELECT DISTINCT c.city, o.total_amount
