@@ -89,7 +89,8 @@ What is the remaining stock for each book after fulfilling all orders?
 Run the queries above against the dataset and fill in the actual results here — for example:
 
 Top-selling genre by units: [run query #12, add result]
-Highest-spending customer: [run query #19, add result]
+Highest-spending customer: [run query #18,]
+![image alt(]https://github.com/yugaa18/SQL/blob/474f79df8d2c19a8019b2c3f8104263c3c347ef8/SQL-QUERY%20(SCREENSHOT1).png)
 Most frequently ordered book: [run query #15, add result]
 Total revenue generated: [run query #11, add result]
 Books with critically low remaining stock: [run query #20, add result]
