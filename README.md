@@ -1,6 +1,6 @@
 📚 Online Bookstore – SQL Data Analysis Project
-📌 Project Overview
 
+📌 Project Overview
 This project analyzes a relational dataset for an online bookstore using PostgreSQL. It covers database design, data import, and a series of SQL queries — from basic filtering to multi-table joins and aggregations — to answer real business questions about sales, customers, and inventory.
 
 🎯 Project Objective
