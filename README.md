@@ -98,7 +98,7 @@ Run the queries above against the dataset and fill in the actual results here �
 ![image alt](https://github.com/yugaa18/SQL/blob/553917843cbf38d447c00c41c96148896269e342/SQL-QUERY(SCREENSHOT2).png)
 
 --List customers who have placed at least 2 orders: [run query #14]
-![image alt]
+![image alt](https://github.com/yugaa18/SQL/blob/4318c21e5068af672f1c5c16f4d92faac792d252/SQL-QUERY(SCREENSHOT3).png)
 
 
 👨‍💻 Author
