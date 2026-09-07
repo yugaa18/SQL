@@ -1,92 +1,21 @@
-📚 Online Bookstore – SQL Data Analysis Project
+📚 Online Bookstore – SQL Data Project
 
-📌 Project Overview
-This project analyzes a relational dataset for an online bookstore using PostgreSQL. It covers database design, data import, and a series of SQL queries — from basic filtering to multi-table joins and aggregations — to answer real business questions about sales, customers, and inventory.
+# SQL Data Analysis – Online Bookstore
 
-🎯 Project Objective
-Design a normalized relational schema for Books, Customers, and Orders.
-Import and validate transactional data.
+Analyzed transactional data for an online bookstore using PostgreSQL to extract business insights on sales trends, customer purchasing behavior, and inventory management.
 
-Answer business questions using SQL: revenue, top sellers, customer behavior, and stock levels.
+## Key SQL Concepts Applied
+* **Multi-Table JOINs:** Combined `Books`, `Customers`, and `Orders` tables for full transactional reporting.
+* **Aggregations & GROUP BY:** Calculated revenue and total unit sales by genre and customer.
+* **HAVING & Subqueries:** Identified high-value customers spending above the average order threshold.
+* **Data Filtering:** Set up inventory stock alerts for books below replenishment limits.
 
-🛠️ Tech Stack
+## Project Files
+* `Books.csv`, `Customers.csv`, `Orders.csv` – Source relational datasets.
+* `.sql` File – Complete data analysis and extraction queries.
+* Screenshots – Executed query results and outputs.
 
-Database: PostgreSQL
-Techniques used: Multi-table JOINs (INNER, LEFT), GROUP BY, HAVING, aggregate functions (SUM, AVG, COUNT), WHERE filtering, ORDER BY / LIMIT, DISTINCT, COALESCE
-🗂️ Schema
-
-Books (500 records)
-
-Column	Type
-Book_ID	SERIAL, Primary Key
-Title	VARCHAR(100)
-Author	VARCHAR(100)
-Genre	VARCHAR(50)
-Published_Year	INT
-Price	NUMERIC(10,2)
-Stock	INT
-
-Customers (500 records)
-
-Column	Type
-Customer_ID	SERIAL, Primary Key
-Name	VARCHAR(100)
-Email	VARCHAR(100)
-Phone	VARCHAR(15)
-City	VARCHAR(50)
-Country	VARCHAR(150)
-
-Orders (500 records)
-
-Column	Type
-Order_ID	SERIAL, Primary Key
-Customer_ID	FK → Customers
-Book_ID	FK → Books
-Order_Date	DATE
-Quantity	INT
-Total_Amount	NUMERIC(10,2)
-
-📊 Key Business Questions Answered
-
-Which books belong to the "Fiction" genre?
-
-Which books were published after 1950?
-
-Which customers are located in Canada?
-
-Which orders were placed in November 2023?
-
-What is the total stock of books available?
-
-What is the most expensive book in the catalog?
-
-Which orders had a quantity greater than 1?
-
-Which orders exceeded $20 in total amount?
-
-What genres exist in the catalog?
-
-Which book has the lowest stock?
-
-What is the total revenue generated from all orders?
-
-What is the total number of books sold per genre?
-
-What is the average price of books in the "Fantasy" genre?
-
-Which customers placed 2 or more orders?
-
-Which book has been ordered the most times?
-
-What are the top 3 most expensive Fantasy books?
-
-What is the total quantity sold by each author?
-
-Which cities have customers who spent over $30?
-
-Which customer spent the most overall?
-
-What is the remaining stock for each book after fulfilling all orders?
+## Key Business Findings
 
 💡 Key Findings
 Run the queries above against the dataset and fill in the actual results here — for example:
